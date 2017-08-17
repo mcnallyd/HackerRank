@@ -12,6 +12,7 @@ def array_left_rotation(a, n, k):
     a = a[k:] + a[:k]
     return a
 
+
 import unittest
 
 class TestSolution(unittest.TestCase):
