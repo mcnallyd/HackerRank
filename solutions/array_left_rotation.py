@@ -2,8 +2,10 @@
 
 def array_left_rotation(a, n, k):
     """
-    n = number of in tegers in a
-    k = number of left rotation to perform
+    Rotate elements in an array of integers
+
+    n = number of i tegers in a
+    k = number of left rotations to perform
     a = array of integers
     """
     if (not a) or (k == 0) or (k%n == 0):
