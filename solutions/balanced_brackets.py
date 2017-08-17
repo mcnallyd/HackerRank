@@ -10,9 +10,7 @@ def is_matched(expression):
         return True
 
     is_open = []
-
     open_brackets = {"{":"}", "[":"]", "(":")"}
-
     close_brackets = {"}":"{", "]":"[", ")":"("}
     
     for c in expression:
